@@ -1,0 +1,34 @@
+local Libary = loadstring(game:HttpGet("https://scriptsbins.vercel.app/raw/alq9iHNAcEMVxFUOzzDF"))()
+workspace.FallenPartsDestroyHeight = -math.huge
+
+local Window = Libary:MakeWindow({
+    Title = "BRUTON HUB BY SUKUNA Best Arabic script",
+    SubTitle = "by: ismail",
+    LoadText = "Best Arabic script",
+    Flags = "ismail_Broookhaven"
+})
+Window:AddMinimizeButton({
+    Button = { Image = "rbxassetid://124481197674432", BackgroundTransparency = 0 },
+    Corner = { CornerRadius = UDim.new(35, 1) },
+})
+--تاب لاول
+
+
+
+local InfoTab = Window:MakeTab({ Title = "الحقوق", Icon = "rbxassetid://10723415903" })
+
+
+InfoTab:AddSection({ "معلومات سكربت" })
+InfoTab:AddParagraph({ "Ola sou Sukuna, obrigado por usar" })
+InfoTab:AddParagraph({ "TIK TOK: sukunahub6" })
+InfoTab:AddParagraph({ "GUI: BRUTON" })
+InfoTab:AddParagraph({ "ROBLOX: SUKUNA_333857" })
+InfoTab:AddParagraph({ "Boa sorte:Obrigado novamente" })
+InfoTab:AddParagraph({ "Thanks wx" })
+InfoTab:AddSection({ "Script wx" })
+InfoTab:AddButton({
+    Name = "Nytherune Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/spacecomm/refs/heads/main/nytheruneplus"))()
+    end
+})
